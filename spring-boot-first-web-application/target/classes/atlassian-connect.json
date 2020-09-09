@@ -1,0 +1,27 @@
+{
+     "name": "Jira Workflow Stages-Duration",
+     "description": "Time In State App",
+     "key": "com.example.myapp",
+     "baseUrl": "https://d9654d3c9169.ngrok.io",
+     "vendor": {
+         "name": "Pushkar",
+         "url": "https://pushkarpn00.atlassian.net/"
+     },
+     "authentication": {
+         "type": "none"
+     },
+	 
+     "apiVersion": 1,
+     "modules": {
+         "generalPages": [
+             {
+                 "url": "/login",
+                 "key": "myapp",
+                 "location": "system.top.navigation.bar",
+                 "name": {
+                     "value": "Jira Workflow Stages-Duration"
+                 }
+             }
+         ]
+     }
+}
